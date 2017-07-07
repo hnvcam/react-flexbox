@@ -1,0 +1,53 @@
+{
+  "name": "react-flexbox",
+  "version": "1.0.0",
+  "description": "Simple Flex Box components for ReactJS",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack -p",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnvcam/react-flexbox.git"
+  },
+  "keywords": [
+    "react",
+    "flex",
+    "box"
+  ],
+  "author": "hnvcam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hnvcam/react-flexbox/issues"
+  },
+  "homepage": "https://github.com/hnvcam/react-flexbox#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "mocha": "^3.4.2",
+    "mocha-webpack": "^0.7.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1"
+  },
+  "peerDependencies": {
+      "babel-polyfill": "^6.23.0",
+      "recompose": "^0.23.5",
+      "lodash": "^4.17.4",
+      "prop-types": "^15.5.10",
+      "react": "^15.6.1"
+  }
+}

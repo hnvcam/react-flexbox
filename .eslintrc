@@ -1,0 +1,41 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+      "modules": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": [
+    "react",
+    "babel"
+  ],
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "max-len": [
+      "error",
+      120
+    ],
+    "import/first": 0,
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1,
+        "VariableDeclarator": 1
+      }
+    ]
+  },
+  "globals": {
+    "ReactComponent": true,
+    "ReactElement": true
+  }
+}
